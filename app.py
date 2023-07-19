@@ -10,7 +10,7 @@ app = Flask(__name__)
 @app.get("/")
 def hello():
     """Return a friendly HTTP greeting."""
-    return "This is a real mailchimp marketing app app!"
+    return "This is a real mailchimp marketing app!"
 
 
 @app.route("/surveysignup/", methods=['POST'])
